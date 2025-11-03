@@ -1,0 +1,3 @@
+
+SELECT DISTINCT service as hospital_services
+FROM patient;
