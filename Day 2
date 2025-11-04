@@ -1,0 +1,30 @@
+
+🗓️ Day 2 | 21 Days SQL Challenge with Indian Data Club 💚
+
+📍 Topic: Using the WHERE Clause to Filter Data
+
+💬 Today’s Focus:
+Today’s challenge was all about filtering data — learning to pull out only the rows that truly matter. It felt like solving a mini mystery 🕵️‍♂️, searching through data to uncover the exact information I needed!
+
+🧩 Challenge:
+Retrieve all patients who were admitted under the ‘Surgery’ department and have a satisfaction score below 70. Display their patient_id, name, age, and satisfaction score.
+
+💻 My Query:
+
+SELECT patient_id, name, age, satisfaction 
+FROM patients 
+WHERE service = 'Surgery' 
+AND satisfaction < 70;
+
+
+🚀 What I Learned:
+The WHERE clause is a powerful tool in SQL — it acts like a filter that helps focus on relevant data. I also explored how logical operators like AND and OR make queries more flexible and precise.
+
+🎯 Key Takeaway:
+Smart filtering brings meaningful insights to the surface 📊
+Each SQL query sharpens my analytical mindset — one challenge at a time!
+
+🙌 Gratitude:
+Huge thanks to Indian Data Club for making learning SQL such an exciting hands-on journey!
+
+#21DaysSQLChallenge #SQLWithIDC #SQL #DataAnalytics #DataScience #LearningByDoing #SQLPractice
